@@ -116,16 +116,22 @@
 }
 
 /** Performance */
-.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child,
-.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child {
-  fill: var(--srcery-white);
-}
-
 .gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
   fill: var(--srcery-green);
 }
 
-.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child,
-.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child {
-  fill: var(--srcery-black);
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg {
+    color: var(--srcery-white);
+}
+.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg {
+    color: var(--srcery-black);
+}
+
+/* fix for slow charging exclamation mark */
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path[fill="#0E141B"] {
+  fill: transparent;
+}
+
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path[fill="#FFC82C"] {
+  fill: var(--srcery-yellow);
 }
