@@ -116,7 +116,8 @@
 }
 
 /** Performance */
-.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child {
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child,
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child {
   fill: var(--srcery-white);
 }
 
@@ -124,7 +125,7 @@
   fill: var(--srcery-green);
 }
 
-.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child,
-.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child {
+.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child,
+.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child {
   fill: var(--srcery-black);
 }

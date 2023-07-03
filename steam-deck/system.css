@@ -22,7 +22,7 @@
 }
 
 #header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
-  fill: var(--srcery-black);
+  fill: var(--srcery-bright-white);
 }
 
 #header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
